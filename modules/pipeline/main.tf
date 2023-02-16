@@ -10,11 +10,6 @@ locals {
   ]
 }
 
-# provider "google" {
-#   project = var.project_id
-#   region  = var.region
-# }
-
 # 1. Deploy PubSub Topics
 module "raw_topic" {
   source  = "snowplow-devops/pubsub-topic/google"
