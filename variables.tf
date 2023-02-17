@@ -106,3 +106,4 @@ variable "bigquery_loader_dead_letter_bucket_name" {
   default     = ""
   type        = string
 }
+
